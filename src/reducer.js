@@ -4,8 +4,8 @@ const reducer = (state = 0, action) => {
         return state + 1;
       case 'DEC':
         return state - 1;
-      case 'RNDM':
-        return state + action.rndmValue;
+      case 'RES':
+        return 0;
       default:
         return state;
     }
